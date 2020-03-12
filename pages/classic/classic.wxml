@@ -1,2 +1,5 @@
-<like-cmp bind:like="onLike" like="{{classic.like_status}}" count="{{classic.fav_nums}}"></like-cmp>
+<view class="header">
+    <epsoide-cmp class="epsoide" index="{{classic.index}}"></epsoide-cmp>
+    <like-cmp class="like" bind:like="onLike" like="{{classic.like_status}}" count="{{classic.fav_nums}}"></like-cmp>
+</view>
 <movie-cmp img="{{classic.image}}" content="{{classic.content}}"></movie-cmp>
